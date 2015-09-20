@@ -1,0 +1,35 @@
+{
+  "name": "tessek-exchange-btce",
+  "version": "0.0.0",
+  "description": "My transcendent module",
+  "license": "MIT",
+  "repository": "mastilver/tessek-exchange-btce",
+  "author": {
+    "name": "Thomas Sileghem",
+    "email": "tsileghem@neworbit.co.uk",
+    "url": "github.com/mastilver"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "btc-e": "^1.0.5",
+    "pify": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2",
+    "coveralls": "^2.11.2",
+    "nyc": "^2.3.0"
+  }
+}
